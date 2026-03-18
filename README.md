@@ -4,7 +4,7 @@
 
 This project investigates major power outages across the United States from 2000 to 2016. The central question is: **can we predict the cause of a major power outage from information available at the time it begins?**
 
-The analysis covers the full data science lifecycle — from data cleaning and exploratory analysis, through missingness assessment and hypothesis testing, to building and evaluating a predictive model.
+The analysis covers the full data science lifecycle, from data cleaning and exploratory analysis, through missingness assessment and hypothesis testing, to building and evaluating a predictive model.
 
 ---
 
@@ -55,7 +55,7 @@ Major outages are defined by the Department of Energy as events impacting at lea
 
 ### Fairness Analysis
 - **Groups:** Northern vs. Southern outages
-- **Result:** p = 0.0100 < 0.05 — the model performs significantly better on Northern outages (F1 = 0.688) than Southern outages (F1 = 0.563), likely because Southern states have a more varied cause distribution that is harder to classify
+- **Result:** p = 0.0100 < 0.05, the model performs significantly better on Northern outages (F1 = 0.688) than Southern outages (F1 = 0.563), likely because Southern states have a more varied cause distribution that is harder to classify
 
 ---
 
