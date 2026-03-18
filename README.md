@@ -1,11 +1,5 @@
 # Major U.S. Power Outages: Causes, Patterns, and Prediction
 
-**Author:** Catherine He  
-**Course:** DSC 80 — UC San Diego  
-**Website:** https://he-cath.github.io/power-outage-analysis/
-
----
-
 ## Overview
 
 This project investigates major power outages across the United States from 2000 to 2016. The central question is: **can we predict the cause of a major power outage from information available at the time it begins?**
@@ -22,45 +16,6 @@ The analysis covers the full data science lifecycle — from data cleaning and e
 - **Columns:** 57 (geographic, climatic, economic, and outage characteristics)
 
 Major outages are defined by the Department of Energy as events impacting at least 50,000 customers or causing an unplanned energy demand loss of at least 300 MW.
-
----
-
-## Repository Structure
-
-```
-├── proj04.ipynb              # Main analysis notebook
-├── outage.xlsx               # Raw dataset
-├── index.html                # Project website
-├── assets/
-│   ├── cause_categories.html
-│   ├── duration_dist.html
-│   ├── duration_cause.html
-│   ├── region_cause_heatmap.html
-│   ├── miss_cause.html
-│   ├── miss_perm.html
-│   ├── hyp_test.html
-│   └── fairness.html
-└── README.md
-```
-
----
-
-## Requirements
-
-```
-pandas
-numpy
-scipy
-plotly
-scikit-learn
-openpyxl
-```
-
-Install with:
-
-```bash
-pip install pandas numpy scipy plotly scikit-learn openpyxl
-```
 
 ---
 
