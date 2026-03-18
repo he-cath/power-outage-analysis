@@ -13,12 +13,12 @@ In this project, I examined a dataset of major power outages across the United S
 
 Understanding what drives outages — severe weather, intentional attacks, equipment failure — matters for grid operators and policymakers. If the cause can be anticipated from contextual signals (region, time of year, climate conditions), utilities can pre-position crews and resources more effectively.
 
-<div class="stat-row">
-  <div class="stat-card"><div class="val">1,534</div><div class="lbl">Total outage events</div></div>
-  <div class="stat-card"><div class="val">57</div><div class="lbl">Columns in raw dataset</div></div>
-  <div class="stat-card"><div class="val">2000–2016</div><div class="lbl">Years covered</div></div>
-  <div class="stat-card"><div class="val">7</div><div class="lbl">Cause categories</div></div>
-</div>
+| Metric | Value |
+|---|---|
+| Total outage events | 1,534 |
+| Columns in raw dataset | 57 |
+| Years covered | 2000–2016 |
+| Cause categories | 7 |
 
 The columns most relevant to this investigation are:
 
@@ -146,12 +146,12 @@ I tested whether power outages are equally distributed between Northern and Sout
   <p><strong>Significance level:</strong> α = 0.05</p>
 </div>
 
-<div class="stat-row">
-  <div class="stat-card"><div class="val">666</div><div class="lbl">Southern outages</div></div>
-  <div class="stat-card"><div class="val">868</div><div class="lbl">Northern outages</div></div>
-  <div class="stat-card"><div class="val">26.60</div><div class="lbl">χ² statistic</div></div>
-  <div class="stat-card"><div class="val">2.5 × 10⁻⁷</div><div class="lbl">p-value</div></div>
-</div>
+| Metric | Value |
+|---|---|
+| Southern outages | 666 |
+| Northern outages | 868 |
+| χ² statistic | 26.60 |
+| p-value | 2.5 × 10⁻⁷ |
 
 <iframe src="assets/hyp_test.html" width="800" height="500" frameborder="0"></iframe>
 
